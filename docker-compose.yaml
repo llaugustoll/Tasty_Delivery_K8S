@@ -1,0 +1,29 @@
+version: "3"
+services:
+  tasty_delivery:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tasty_delivery
+    ports:
+      - "8000:8000"
+    networks:
+      - compose-bridge
+    depends_on:
+      - postgres_db
+
+  postgres_db:
+    image: postgres
+    container_name: tasty_postgres
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_DB: tasty_delivery
+    ports:
+      - "5432:5432"
+    networks:
+      - compose-bridge
+
+networks:
+  compose-bridge:
+    driver: bridge
