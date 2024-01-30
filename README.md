@@ -15,9 +15,15 @@ camada de atendimento presencial.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/7863369-c1c3e6cc-c9b5-47e8-9820-28aab34ff497?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D7863369-c1c3e6cc-c9b5-47e8-9820-28aab34ff497%26entityType%3Dcollection%26workspaceId%3D7722f8b0-e64b-48df-8938-eabd38a000cd)
 
-### Documentação WORD
+### Documentação WORD - Passo a passo utilização da API
+
+Documentação criada para orientar a utilização da API
 
 [Documentação](https://docs.google.com/document/d/1aGpq26gV_-5NqVgCxIWloruXr-YnNfkn-rSJ9hvTfsY/edit)
+
+## Vídeo demonstração funcionamento Infra com Kubernetes
+
+https://youtu.be/rFvhXgV6rpA
 
 ### Kubernetes
 
@@ -85,5 +91,8 @@ Será necessário utilizar a porta configurada para acessar o servidor, no caso 
 ### Desenho arquitetura infra
 
 ![Infra](utils/Infra.jpeg)
+
+
+
 
 
