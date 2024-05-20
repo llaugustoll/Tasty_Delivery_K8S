@@ -3,9 +3,9 @@ kind: Service
 metadata:
   name: svc-tasty-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: sistema-tasty
   ports:
     - port: 8000
-      nodePort: 30001 
+      targetPort: 8000 

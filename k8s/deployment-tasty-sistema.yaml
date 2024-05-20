@@ -12,7 +12,7 @@ spec:
     spec:
         containers:
         - name: sistema-tasty
-          image: llaugustoll/tasty_delivery:v6
+          image: llaugustoll/tasty_delivery:v7
           ports:
             - containerPort: 8000
           envFrom:
